@@ -8,7 +8,7 @@ def get_item_info(input_file):
         return {}
     item_info={}
     linenum=0
-    fp = open(input_file)
+    fp = open(input_file,'rb')
     for line in fp:
         if linenum == 0:
             linenum += 1
