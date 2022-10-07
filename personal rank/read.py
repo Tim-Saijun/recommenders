@@ -1,7 +1,4 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# __author__ = "Q1mi"
-# Date: 2019/6/15
+
 
 '''
 get graph from user data

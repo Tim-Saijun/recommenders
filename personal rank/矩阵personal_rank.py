@@ -1,10 +1,4 @@
 '''
-@-*- coding: utf-8 -*-
-@__author__ = "陈宸"
-@Project: personal rank
-@FileName: 矩阵personal_rank.py
-@Date: 2019/6/17
-
 matrix personal rank algorithm
 1、用二分图得到M矩阵
 2、求公式
@@ -71,6 +65,6 @@ def mat_all_point(m_matrix, vertex, alpha):
     return eye_t.tocsr() - alpha*m_matrix.tocsr().transpose()
 
 if __name__ == '__main__':
-    graph = read.get_graph_from_data('log')
+    graph = read.get_graph_from_data('ratings.csv')
     m, vertex, address_dict = graph_to_m(graph)
     print(address_dict)
